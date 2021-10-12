@@ -2,7 +2,7 @@ import HtmlWebpackPlugin = require("html-webpack-plugin");
 import path = require("path");
 import { Configuration } from "webpack";
 import fs = require("fs");
-import ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
+// import ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 
 const config: Configuration = {
   entry: ["@babel/polyfill", "./src/index.tsx"],

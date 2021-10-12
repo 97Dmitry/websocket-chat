@@ -1,14 +1,12 @@
 module.exports = {
   root: true,
   env: {
-    // node: true,
-    // browser: true,
-    // es2021: true,
+    node: true,
+    browser: true,
+    es2021: true,
   },
   plugins: [
     "@typescript-eslint",
-    "react-hooks",
-    "import",
     "react",
   ],
   extends: [
@@ -39,6 +37,8 @@ module.exports = {
     "object-curly-spacing": ["error", "always"],
     "no-multiple-empty-lines": ["error", { max: 2, maxEOF: 0 }],
     "quote-props": ["error", "consistent-as-needed"],
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
   },
   settings: {
     react: {
