@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`choiceChat snapshot test choiceChat must be match 1`] = `
+<div>
+  <div>
+    Choice your chat
+  </div>
+  <input
+    placeholder="Chat name"
+    type="text"
+  />
+</div>
+`;
