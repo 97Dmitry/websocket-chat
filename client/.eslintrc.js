@@ -39,6 +39,7 @@ module.exports = {
     "quote-props": ["error", "consistent-as-needed"],
     "import/extensions": "off",
     "import/prefer-default-export": "off",
+    "max-len": ["error", { code: 100, ignoreComments: true }],
   },
   settings: {
     react: {
