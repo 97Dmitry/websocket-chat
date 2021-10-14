@@ -20,8 +20,8 @@ const config: Configuration = {
       logging: "log",
       overlay: true,
       progress: true,
-      webSocketTransport: "ws",
-      webSocketURL: "ws://0.0.0.0:8080/ws",
+      // webSocketTransport: "ws",
+      // webSocketURL: "ws://0.0.0.0:3000/ws",
     },
     compress: true,
     devMiddleware: {},
@@ -56,12 +56,12 @@ const config: Configuration = {
     },
     open: false,
     port: 5500,
-    proxy: {
-      "/api": {
-        target: "http://localhost:3000",
-        pathRewrite: { "^/api": "" },
-      },
-    },
+    // proxy: {
+    //   "/api": {
+    //     target: "http://localhost:3000",
+    //     pathRewrite: { "^/api": "" },
+    //   },
+    // },
     setupExitSignals: true,
     static: {
       directory: path.join(__dirname, "assets"),
