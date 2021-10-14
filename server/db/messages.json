@@ -13,6 +13,34 @@
       "senderName": "Alice",
       "messageText": "Go back to work!",
       "createdAt": "2021-02-15"
+    },
+    {
+      "messageId": "imJ0izUD",
+      "createdAt": "2021-10-14T10:17:49.529Z",
+      "userId": "eS12HSr-",
+      "messageText": "vdfvdf",
+      "senderName": "Alex"
+    },
+    {
+      "messageId": "Y3J45Dtq",
+      "createdAt": "2021-10-14T10:17:58.698Z",
+      "userId": "eS12HSr-",
+      "messageText": "ewfe",
+      "senderName": "Alex"
+    },
+    {
+      "messageId": "L0GsI5Pz",
+      "createdAt": "2021-10-14T10:18:04.040Z",
+      "userId": "U7V25Ugz",
+      "messageText": "wfewfew",
+      "senderName": "John"
+    },
+    {
+      "messageId": "EmxU6hqG",
+      "createdAt": "2021-10-14T10:19:34.158Z",
+      "userId": "eS12HSr-",
+      "messageText": "🧨🧨🧨",
+      "senderName": "Alex"
     }
   ]
 }

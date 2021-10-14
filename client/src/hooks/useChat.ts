@@ -3,11 +3,11 @@ import { useEffect, useRef, useState } from "react";
 import io, { Socket } from "socket.io-client";
 import { nanoid } from "nanoid";
 // наши хуки
-import { useLocalStorage, useBeforeUnload } from "src/hooks";
+import { useLocalStorage, useBeforeUnload } from "@/hooks";
 
 // адрес сервера
 // требуется перенаправление запросов - смотрите ниже
-const SERVER_URL = "http://localhost:5000";
+const SERVER_URL = "http://localhost:3000";
 
 // хук принимает название комнаты
 export const useChat = (roomId: string): {
@@ -18,7 +18,7 @@ export const useChat = (roomId: string): {
   // локальное состояние для пользователей
   const [users, setUsers] = useState([]);
   // локальное состояние для сообщений
-  const [messages, setMessages] = useState<Array<{ userId: string, currentUser?: boolean }>>();
+  const [messages, setMessages] = useState<Array<{ userId: string, currentUser?: boolean }>>([]);
 
   // создаем и записываем в локальное хранинище идентификатор пользователя
   const [userId] = useLocalStorage("userId", nanoid(8));
